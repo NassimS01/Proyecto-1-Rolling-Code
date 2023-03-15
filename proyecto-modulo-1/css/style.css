@@ -169,9 +169,13 @@ main {
 }
 
 /* Section card  */
+
+.titles {
+  color: var(--font-color);
+}
 .container-cards {
   display: flex;
-  gap: 30px;
+  gap: 15px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -196,21 +200,8 @@ main {
   transition: 0.3s ease-in-out;
 }
 
-.img-envio,
-.img-cuotas {
-  width: 85px;
-}
-
-.img-envio {
-  position: absolute;
-  top: 20px;
-  left: 15px;
-}
-
-.img-cuotas {
-  position: absolute;
-  bottom: 200px;
-  left: 15px;
+.product-click {
+  text-decoration: none;
 }
 
 .img-card {
@@ -231,6 +222,7 @@ main {
   margin-bottom: 5px;
   font-weight: 500;
   height: 50px;
+  color: #000;
 }
 .price-discount {
   display: flex;
@@ -246,7 +238,7 @@ main {
   font-weight: 500;
 }
 .discount {
-  color: white;
+  color: var(--secondary);
   background-color: var(--font-color);
   font-weight: 500;
   border-radius: 5px;
@@ -256,6 +248,8 @@ main {
 .new-price {
   font-size: 22px;
   font-weight: 700;
+  color: #000;
+  text-align: center;
 }
 
 .button-buy-card {
@@ -398,7 +392,7 @@ main {
 .ofertas-hijo2 {
   position: relative;
   margin: 20px;
-  width: 490px;
+  width: 600px;
   height: 260px;
   background-color: #fff;
   display: flex;
@@ -455,6 +449,25 @@ main {
 }
 
 /* Fin de section ofertas  */
+
+/* Contacto */
+
+.contenedor-padre {
+  font-family: "Montserrat", "sans-serif";
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+}
+
+.form-contact {
+       width: 30vw;
+}
+
+/* Fin contacto */
 
 /* Footer */
 
@@ -884,6 +897,31 @@ body {
     width: 250px;
   }
   /* Fin responsive navbar */
+
+  /* contacto */
+  .contenedor-padre {
+    min-width: 80vw;
+    height: 1000px;
+    align-items: center;
+    gap: 0;
+  }
+
+  iframe {
+       width: 300px;
+  }
+
+  .form-contact {
+      width: 50vw;
+  }
+   
+  /* Fin contacto */
+
+  /* ofertas */
+
+  .ofertas-hijo1,
+.ofertas-hijo2 {
+      width: 470px;
+}
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1252,6 +1290,5 @@ body {
     width: 25vw;
   }
 
-  
   /* Fin responsive navbar */
 }
