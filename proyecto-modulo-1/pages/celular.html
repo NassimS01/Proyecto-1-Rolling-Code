@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ecotech - Notebook</title>
+      <!-- Link CSS -->
+      <link rel="stylesheet" href="/css/style.css">
+      <!-- Link Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Font Google -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+            rel="stylesheet">
+      <!-- Favicon -->
+      <link data-react-helmet="true" rel="shortcut icon" sizes="32x32" href="/assets/images/favicon/dinosaur.png">
+      <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+      <!-- Header -->
+      <header id="header">
+            <div class="nav-left">
+                  <a href="/index.html"><img src="" alt="">LOGO</a>
+            </div>
+            <div class="nav-middle">
+                  <input type="search" class="search">
+                  <i class="fa fa-search"></i>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+            </label>
+            <nav class="nav-bar">
+                  <ul class="nav-ul">
+                        <li><a href="" class="underline">Inicio</a></li>
+                        <li><a href="" class="underline">Nosotros</a></li>
+                        <li><a href="" class="underline">Contacto</a></li>
+                  </ul>
+                  <div class="nav-right">
+                        <a href="login.html" class="icons-navbar"><img src="/assets/images/nav-bar/user.png" alt=""></a>
+                        <a href="error404.html" class="icons-navbar-2"><img
+                                    src="/assets/images/nav-bar/shopping-cart.png" alt=""></a>
+                  </div>
+            </nav>
+      </header>
+      <!-- Fin Header -->
+      <main>
+            <!-- Slider de imagenes -->
+            <section class="slider">
+                  <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                    <img src="/assets/images/slider/first-image.webp"
+                                          class="d-block w-100 img-carrousel" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                    <img src="/assets/images/slider/second-image.webp"
+                                          class="d-block w-100 img-carrousel" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                    <img src="/assets/images/slider/third-image.webp"
+                                          class="d-block w-100 img-carrousel" alt="...">
+                              </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                              data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                              data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                        </button>
+                  </div>
+            </section>
+            <!-- Fin slider imagenes -->
+            <!-- Cards -->
+            <div class="container-cards">
+                  <div class="product-card">
+                        <img src="/assets/images/cards/celular/a30s.png" alt="" class="img-card">
+                        <div class="content-card">
+                              <p class="title-product">Celular Samsung Galaxy A03S 64GB</p>
+                              <div class="price-discount">
+                                    <p class="old-price">$53.999</p>
+                                    <p class="discount">7% OFF</p>
+                              </div>
+                              <p class="new-price">$49.999</p>
+
+                              <div class="description">
+                              </div>
+                              <button class="button-buy-card">
+                                    <span>Button</span>
+                              </button>
+                        </div>
+                  </div>
+                  <div class="product-card">
+                        <img src="/assets/images/cards/celular/moto-e32.png" alt="" class="img-card">
+                        <div class="content-card">
+                              <p class="title-product">Celular Motorola E32 64GB Plata</p>
+                              <div class="price-discount">
+                                    <p class="old-price">$74.999</p>
+                                    <p class="discount">21% OFF</p>
+                              </div>
+                              <p class="new-price">$64.999</p>
+
+                              <div class="description">
+                              </div>
+                              <button class="button-buy-card">
+                                    <span>Button</span>
+                              </button>
+                        </div>
+                  </div>
+                  <div class="product-card">
+                        <img src="/assets/images/cards/celular/a53.png" alt="" class="img-card">
+                        <div class="content-card">
+                              <p class="title-product">Celular Samsung Galaxy A53 5G 128GB</p>
+                              <div class="price-discount">
+                                    <p class="old-price">$163.999</p>
+                                    <p class="discount">8% OFF</p>
+                              </div>
+                              <p class="new-price">$149.999</p>
+
+                              <div class="description">
+                              </div>
+                              <button class="button-buy-card">
+                                    <span>Button</span>
+                              </button>
+                        </div>
+                  </div>
+                  <div class="product-card">
+                        <img src="/assets/images/cards/celular/moto-edge-30.png" alt="" class="img-card">
+                        <div class="content-card">
+                              <p class="title-product">Celular Motorola Edge 30 Neo</p>
+                              <div class="price-discount">
+                                    <p class="old-price">$160.999</p>
+                                    <p class="discount">15% OFF</p>
+                              </div>
+                              <p class="new-price">$139.999</p>
+
+                              <div class="description">
+                              </div>
+                              <button class="button-buy-card">
+                                    <span>Button</span>
+                              </button>
+                        </div>
+                  </div>
+            </div>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
