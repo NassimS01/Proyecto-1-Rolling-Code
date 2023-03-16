@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --background: #E1E1E1;
+    --font-color: #758BFD;
+    --secondary: #f1f2f6;
+}
+
+.titulo-sn {
+    margin: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.historia-quicktech {
+    margin: 15px 15px 30px 15px;
+    text-align: center;
+}
+
+.container-quienes-somos {
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sobre-nosotros {
+    margin: 30px 30px 10px 30px;
+    width: 90vw;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.iconos-sobre-nosotros {
+    margin: 20px;
+    padding: 5px;
+    width: 240px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(193, 192, 192);
+    border-radius: 5px;
+}
+
+.nombre-sn {
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--font-color);
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 10px 31px 0px 31px;
+    box-shadow: 2px 2px 5px 1px #999;
+}
+
+.puesto-empresa {
+    margin-top: 10px;
+    width: 200px;
+    height: 80px; 
+    text-align: center;
+}
+
+.iconos:hover {
+    box-shadow: 2px 2px 5px 1px rgb(69, 68, 68);
+}
+
+#icono {
+    width: 90px;
+    height: 90px;
+}
+
+/* Fin de section iconos */

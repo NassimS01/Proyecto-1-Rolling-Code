@@ -29,7 +29,7 @@
       <!-- Header -->
       <header id="header">
             <div class="nav-left">
-                  <a href="/index.html"><img src="" alt="">LOGO</a>
+                  <a href="/index.html"><img src="/assets/images/nav-bar/logo.svg" alt="" class="logo-navbar"></a>
             </div>
             <div class="nav-middle">
                   <input type="search" class="search">
@@ -41,19 +41,137 @@
             </label>
             <nav class="nav-bar">
                   <ul class="nav-ul">
-                        <li><a href="" class="underline">Inicio</a></li>
-                        <li><a href="" class="underline">Nosotros</a></li>
-                        <li><a href="" class="underline">Contacto</a></li>
+                        <li><a href="/index.html" class="underline">Inicio</a></li>
+                        <li><a href="about-us.html" class="underline">Nosotros</a></li>
+                        <li><a href="/index.html#contact" class="underline">Contacto</a></li>
                   </ul>
                   <div class="nav-right">
-                        <a href="login.html" class="icons-navbar"><img src="/assets/images/nav-bar/user.png" alt=""></a>
-                        <a href="error404.html" class="icons-navbar-2"><img
-                                    src="/assets/images/nav-bar/shopping-cart.png" alt=""></a>
+                        <a href="/pages/login.html" class="icons-navbar"><img src="/assets/images/nav-bar/user.png"
+                                    alt=""></a>
+                        <button type="button" class="btn btn-primary p-0" width="24px" height="24px"
+                              data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                              style="background-color: #e1e1e1; border: 0px;">
+                              <img src="/assets/images/nav-bar/shopping-cart.png" width="24px" height="24px" alt="">
+                        </button>
                   </div>
             </nav>
+
       </header>
       <!-- Fin Header -->
       <main>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="fixed" data-bs-keyboard="false" tabindex="-1"
+                  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable ">
+                        <div class="modal-content padre">
+                              <div class="modal-header">
+
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Producto añadido a su carrito
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                          aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                    <!--------------------------------------------------------------------------------- card-1------------------------------------------------------------------------------------------->
+                                    <div class="card mb-3 tarjeta" style="max-width: 600px; max-height:170px; ">
+                                          <div class="row g-0 d-flex align-items-center">
+                                                <div class="col ">
+                                                      <img class="tilde" src="/assets/images/cards/celular/moto-e32.png"
+                                                            class="img-fluid rounded-start" alt="...">
+                                                </div>
+                                                <div class="col d-flex">
+                                                      <h5 class="card-title">moto-e32 4 gb RAM 64gb Rom</h5>
+                                                </div>
+                                                <div class="col">
+                                                      <p class="card-text">197.22</p>
+                                                </div>
+                                                <div class="col ">
+                                                      <p class="card-text"><small class="text-muted"><img
+                                                                        src="/assets/images/nav-bar/baurero.png" alt=""
+                                                                        class="eliminar"></small></p>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <!----------------------------------------------------------------------------------fin de card-1---------------------------------------------------------------------------------->
+                                    <!----------------------------------------------------------------------------------- card-2--------------------------------------------------------------------------------------->
+                                    <div class="card mb-3 tarjeta" style="max-width: 600px; max-height:170px; ">
+                                          <div class="row g-0 d-flex align-items-center">
+                                                <div class="col ">
+                                                      <img class="tilde" src="/assets/images/cards/gaming/xbox.png"
+                                                            class="img-fluid rounded-start" alt="...">
+                                                </div>
+                                                <div class="col d-flex">
+                                                      <h5 class="card-title">Xbox</h5>
+                                                </div>
+                                                <div class="col">
+                                                      <p class="card-text">197.22</p>
+                                                </div>
+                                                <div class="col ">
+                                                      <p class="card-text"><small class="text-muted"><img
+                                                                        src="/assets/images/nav-bar/baurero.png" alt=""
+                                                                        class="eliminar"></small></p>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <!--------------------------------------------------------------------------------------fin de card-2---------------------------------------------------------------------------->
+                                    <!-------------------------------------------------------------------------------------- card-3---------------------------------------------------------------------------------->
+                                    <div class="card mb-3 tarjeta" style="max-width: 600px; max-height:170px; ">
+                                          <div class="row g-0 d-flex align-items-center ">
+                                                <div class="col ">
+                                                      <img class="tilde" src="/assets/images/cards/notebook/Lenovo.png"
+                                                            class="img-fluid rounded-start" alt="...">
+                                                </div>
+                                                <div class="col d-flex">
+                                                      <h5 class="card-title">Notebook lenovo i5 8RAM</h5>
+                                                </div>
+                                                <div class="col">
+                                                      <p class="card-text">250.000</p>
+                                                </div>
+                                                <div class="col ">
+                                                      <p class="card-text"><small class="text-muted"><img
+                                                                        src="/assets/images/nav-bar/baurero.png" alt=""
+                                                                        class="eliminar"></small></p>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <!--------------------------------------------------------------------------------------- fin de card-3------------------------------------------------------------------------->
+                                    <!-------------------------------------------------------------------------------------- card-4---------------------------------------------------------------------------------->
+                                    <div class="card mb-3 tarjeta final text-center "
+                                          style="max-width: 600px; max-height:140px; ">
+                                          <div class="row g-0 ">
+                                                <div class="col-6 ">
+                                                      <p class="centrar">3 articulos</p>
+                                                </div>
+                                                <div class="col-6 text-center ">
+                                                      <p>$1.030.573</p>
+                                                </div>
+                                                <!-- force de quiebre la siguiente columna para una nueva linea -->
+                                                <div class="w-100"></div>
+                                                <div class="col-6">
+                                                      <p class="card-text">Costo de Envio</p>
+                                                </div>
+                                                <div class="col-6">
+                                                      <p class="card-text"><small class="text-muted"><img
+                                                                        src="/assets/images/nav-bar/gif.gif" alt=""
+                                                                        class="Gif"></small>
+                                                      </p>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <!--------------------------------------------------------------------------------------- fin de card-4-------------------------------------------------------------------------->
+                              </div>
+                              <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                          data-bs-dismiss="modal">cerrar</button>
+                                    <a href="pages/error404.html"><button type="button"
+                                                class="btn btn-primary">comprar</button></a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            </div>
+
+            <!-------------------------------------------------------------------------------------------- fin modal------------------------------------------------------ -->
             <!-- Slider de imagenes -->
             <section class="slider">
                   <div id="carouselExampleIndicators" class="carousel slide">
@@ -129,8 +247,7 @@
 
                                     <div class="description">
                                     </div>
-                                    <a href="/pages/products/moto-e32/moto-e32.html"
-                                          class="product-button">
+                                    <a href="/pages/products/moto-e32/moto-e32.html" class="product-button">
                                           <button class="button-buy-card">
                                                 <span>Button</span>
                                           </button>
@@ -151,8 +268,7 @@
 
                                     <div class="description">
                                     </div>
-                                    <a href="/pages/products/samsung-a53/samsung-a53.html"
-                                          class="product-button">
+                                    <a href="/pages/products/samsung-a53/samsung-a53.html" class="product-button">
                                           <button class="button-buy-card">
                                                 <span>Button</span>
                                           </button>
@@ -183,6 +299,78 @@
                   </a>
             </div>
       </main>
+      <footer>
+            <div class="container-footer">
+                  <div class="container-inscription">
+                        <p class="text-inscription1">¡No te pierdas nuevas novedades!</p>
+                        <p class="text-inscription2">Subscribite y recibí los mejores beneficios.</p>
+                        <input type="email" class="email-inscription" placeholder="Ingrese su email">
+                        <input type="button" class="button-inscription" value="SUSCRIBIRME">
+                  </div>
+
+                  <div class="section-footer2">
+
+                        <div class="section-redes-sociales">
+                              <div class="redes-texto">
+                                    <img src="/assets/images/nav-bar/logo.svg" alt="">
+                                    <h3>Seguinos en:</h3>
+                              </div>
+                              <div class="conteiner-iconos">
+                                    <div class="icono-redes">
+                                          <a href="https://www.instagram.com/"><img
+                                                      src="/assets/images/footer/Instagram.svg" alt=""></a>
+                                    </div>
+                                    <div class="icono-redes">
+                                          <a href="https://es-la.facebook.com/"><img
+                                                      src="/assets/images/footer/Facebook.svg" alt=""></a>
+
+                                    </div>
+                                    <div class="icono-redes">
+                                          <a href="https://twitter.com/"><img src="/assets/images/footer/Twitter.svg"
+                                                      alt=""></a>
+                                    </div>
+
+                              </div>
+                        </div>
+
+                        <div class="columnas-footer">
+                              <div class="col-footer1">
+                                    <p class="underline" href="">CATEGORIAS</p>
+                                    <a class="texto-columnas" href="pages/notebook.html">Notebooks</a>
+                                    <a class="texto-columnas" href="pages/celular.html">Smartphones </a>
+                                    <a class="texto-columnas" href="pages/gaming.html">Gamings</a>
+                                    <a class="texto-columnas" href="pages/television.html">Television</a>
+                              </div>
+                              <div class="col-footer2">
+                                    <p class="underline" href="">INSTITUCIONAL</p>
+                                    <a class="texto-columnas" href="about-us.html">Sobre nosotros</a>
+                                    <a class="texto-columnas" href="pages/error404.html">Servicios</a>
+                                    <a class="texto-columnas" href="#contact">Contacto</a>
+                              </div>
+
+                              <div class="col-footer3">
+                                    <p class="underline" href="">INFORMACION</p>
+                                    <a class="texto-columnas" href="pages/error404.html">Como comprar</a>
+                                    <a class="texto-columnas" href="pages/error404.html">Pago y envío</a>
+                                    <a class="texto-columnas" href="pages/error404.html">Preguntas</a>
+                              </div>
+
+                              <div class="col-footer4">
+                                    <p class="underline" href>MAS BUSCADOS</p>
+                                    <a class="texto-columnas" href="pages/notebook.html">Notebooks</a>
+                                    <a class="texto-columnas" href="pages/celular.html">Smartphones</a>
+                                    <a class="texto-columnas" href="pages/television.html">Smart TV</a>
+                              </div>
+                        </div>
+
+                  </div>
+
+
+                  <p class="texto-footer2"> Copyright © 2023 Quicktech S.A. Todos los derechos reservados.</p>
+
+            </div>
+      </footer>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"></script>
